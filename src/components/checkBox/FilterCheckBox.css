@@ -1,0 +1,35 @@
+.input_filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.input_filter-checkBox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #30cfd0;
+  border-radius: 5px;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.input_filter-checkBox:before {
+  content: "";
+  background-color: #30cfd0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  transition: all 0.1s ease-in-out;
+}
+
+.input_filter-checkBox:checked:before {
+  transform: translate(-50%, -50%) scale(1);
+}

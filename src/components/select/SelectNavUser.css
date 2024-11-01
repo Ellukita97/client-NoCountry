@@ -1,0 +1,17 @@
+.select-green_component {
+  background-color: #534c7e00;
+  border: 2px solid #6dd0b3;
+  color: #6dd0b3;
+  font-family: inherit;
+  font-size: 19px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  text-align: center;
+}
+
+.select-green_component option {
+  background-color: #241f61;
+}

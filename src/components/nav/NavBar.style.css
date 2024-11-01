@@ -1,0 +1,31 @@
+.container_NavBar {
+  width: 100%;
+  background-color: #241f61;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-bottom: 40px;
+
+  -webkit-box-shadow: 0px 40px 203px 118px rgba(111,247,175,1);
+  -moz-box-shadow: 0px 40px 203px 118px rgba(111,247,175,1);
+  box-shadow: 0px 40px 203px 118px rgb(97 235 161 / 80%);
+}
+.logo-img_NavBar {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.input-div_NavBar {
+  display: flex;
+  width: 600px;
+}
+
+@media (max-width: 700px) {
+  .container_NavBar{
+    flex-direction: column;
+  }
+  .input-div_NavBar {
+    width: auto;
+  }
+}

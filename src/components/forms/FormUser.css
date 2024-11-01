@@ -1,0 +1,104 @@
+.exit-btn_form-user {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: none;
+  border-radius: 50%;
+  border: none;
+  z-index: 200;
+}
+
+.form-user {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji",
+    sans-serif;
+  max-width: 520px;
+  position: relative;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 0;
+  width: 100%;
+  padding: 50px;
+  background-color: #534c7e;
+  border-radius: 20px;
+}
+.form-user div {
+  display: flex;
+  flex-direction: column;
+  height: 85px;
+}
+.form-user input[type="text"],
+input[type="password"] {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  height: 40px;
+}
+.form-user span {
+  font-weight: 600;
+  font-size: small;
+  color: #ffbb9e;
+}
+.form-user hr {
+  margin: 20px 0;
+  border: 1px solid #bfbae1;
+  width: 100%;
+}
+.form-user a {
+  font-size: 15px;
+  color: #bfbae1;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.title_form-user {
+  color: #6dd0b3;
+  text-align: center;
+  font-size: 40px;
+}
+
+.checkbox_form-user {
+  align-items: start;
+  flex-direction: row !important;
+  gap: 20px;
+}
+
+.button_form-user {
+  background-color: #534c7e;
+  border: 2px solid #6dd0b3;
+  color: #6dd0b3;
+  font-family: inherit;
+  font-size: 19px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.icon_form-user {
+  position: absolute;
+  top: -70px;
+  right: -10%;
+}
+.icon2_form-user {
+  height: 120px;
+  position: absolute;
+  bottom: -8%;
+  left: -60px;
+  transform: rotate(-25deg);
+}
+.button-check-container_form-user {
+  height: 100px !important;
+}
+.button-check-container_form-user button {
+  margin-top: 10px;
+}

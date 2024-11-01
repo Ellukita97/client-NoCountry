@@ -1,0 +1,65 @@
+.container_coursesCardSearch {
+  width: 530px;
+  max-height: 200px;
+  display: flex;
+  background-color: #241f61;
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(109, 208, 179, 1);
+  -moz-box-shadow: 10px 10px 0px 1px rgba(109, 208, 179, 1);
+  box-shadow: 10px 10px 0px 1px rgba(109, 208, 179, 1);
+}
+.img-course_coursesCardSearch {
+  width: 250px;
+  height: 100%;
+}
+.price-course_coursesCardSearch{
+  position: relative;
+  top: -37px;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+.second-divition_coursesCardSearch {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second-divition_coursesCardSearch h3 {
+  margin: 8px;
+}
+
+.btn-buy_coursesCardSearch {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #6dd0b3;
+  color: #241f61;
+}
+.btn-info_coursesCardSearch {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #241f61;
+  color: #6dd0b3;
+}
+
+@media (max-width: 1475px) {
+  .container_coursesCardSearch {
+    width: 100%;
+  }
+}
+@media (max-width: 832px) {
+  .container_coursesCardSearch {
+    max-width: 48%;
+    max-height: 100%;
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .img-course_coursesCardSearch {
+    width: 100%;
+  }
+  .second-divition_coursesCardSearch {
+    padding: 10px;
+  }
+}

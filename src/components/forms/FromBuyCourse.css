@@ -1,0 +1,42 @@
+.form-buy_card {
+  display: flex;
+  flex-direction: column;
+}
+.form-buy_card div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  color: #fff;
+  height: 70px;
+}
+.sub-title_card {
+  color: #6dd0b3 ;
+  padding-bottom: 20px;
+}
+.form-buy_card label {
+
+  text-align: center;
+  font-size: 15px;
+}
+
+.form-buy_card span {
+    color: #ffbb9e ;
+}
+
+.form-buy_card input,
+.form-buy_card input[type="text"],
+.form-buy_card input[type="password"] {
+  background-color: #fff;
+  padding: 5px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  height: inherit;
+  height: 18px;
+}
+
+.section-div_card {
+  flex-direction: row !important;
+  gap: 20px;
+}

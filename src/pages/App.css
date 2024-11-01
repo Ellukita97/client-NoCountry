@@ -1,0 +1,44 @@
+.container-App_page {
+  margin-top: 50px;
+  max-width: 1459px;
+}
+
+.container-2_App {
+  display: flex;
+  width: 98vw;
+}
+
+.filter-container {
+  height: 463px;
+  min-width: 210px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.courses-card-container_App {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  gap: 60px;
+}
+.not-found-text_App {
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  padding-top: 150px;
+}
+@media (max-width: 832px) {
+  .courses-card-container_App {
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 832px) {
+  .filter-container {
+    display: none;
+  }
+}
